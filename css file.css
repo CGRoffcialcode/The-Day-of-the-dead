@@ -1,23 +1,22 @@
 @media only screen and (min-width: 600px) {
     body {
-      background-color: rgb(207, 128, 128);
+      background-color: rgb(67, 83, 255)
     
   }
 }
 @media only screen and (min-width: 600px) {
     body {
-      background-color: rgb(250, 132, 132);
+      background-color: rgb(184, 216, 253);
     
   }
 }
 h1{
     color: rgb(0, 0, 0);
     font-style: italic;
-    font-size: xx-large;
     text-align: center;
 }
 
-#Foo{
+.Foo{
     align-self: center;
     text-align: center;
      
@@ -42,3 +41,47 @@ h3{
 .center{
   align-self: center;
 }
+
+.right{
+  text-align: justify;
+}
+
+.important{
+  font-size: 1000%;
+  font-weight: bolder;
+}
+
+#flex{
+  display: inline-flexbox;
+}
+
+.Foop{
+  object-fit: cover;
+}
+
+
+button{
+  color: red;
+  background-color: rgb(55, 0, 255);
+  border: 10cap;
+  width: 100px;
+  height: 100x;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+iframe {
+  border-radius: 0 !important;
+}
+
+
+/*change the color of the text and set the background color plus the text-align*/
+#se{
+  color: black;
+}
+
