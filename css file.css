@@ -104,4 +104,7 @@ iframe {
     background-color: rgb(255, 0, 0);
   }
 }
-  
+#version{
+  font-family: monospace;
+  color: black;
+}
