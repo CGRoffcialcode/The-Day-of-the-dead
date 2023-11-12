@@ -1,12 +1,12 @@
 @media only screen and (min-width: 600px) {
     body {
-      background-color: rgb(67, 83, 255)
+      background-color: rgba(113, 163, 255, 0.794)
     
   }
 }
 @media only screen and (min-width: 600px) {
     body {
-      background-color: rgb(184, 216, 253);
+      background-color: rgba(174, 255, 67, 0.897);
     
   }
 }
