@@ -1,12 +1,12 @@
 @media only screen and (min-width: 600px) {
     body {
-      background-color: rgba(113, 163, 255, 0.794)
+      background-color: rgba(133, 174, 252, 0.794)
     
   }
 }
 @media only screen and (min-width: 600px) {
     body {
-      background-color: rgba(174, 255, 67, 0.897);
+      background-color: rgba(203, 255, 135, 0.897);
     
   }
 }
@@ -64,14 +64,16 @@ button{
   color: red;
   background-color: rgb(55, 0, 255);
   border: 10cap;
-  width: 100px;
+  width: 200px;
   height: 100px;
+ display: block;
 
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
+  line-break: auto;
 }
 html,
 body,
@@ -107,4 +109,39 @@ iframe {
 #version{
   font-family: monospace;
   color: black;
+}
+
+.contents{
+  background-color: cyan;
+  text-align: center;
+  ul{
+    background-color: aqua;
+    font-weight: bold;
+    li{
+      background-color: grey;
+
+  }
+}
+}
+
+#superbig{
+  font-size: 500%;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+}
+
+iframe{
+  border: 10px solid black;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+
 }
