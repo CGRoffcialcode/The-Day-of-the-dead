@@ -25,10 +25,10 @@ iframe{
   display: block;
 
 }
-.staythere{
-  display: block;
-
+.hackbeacuseineedit{
+  visibility: hidden;
 }
+
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -37,6 +37,7 @@ iframe{
 
   .hidden{
     visibility: visible;
+    
 
   }
 
@@ -56,10 +57,11 @@ iframe{
     display: none;
   
   }
-  .staythere{
-    display: none;
-  
+  .hackbeacuseineedit{
+    visibility: hidden;
   }
+ 
+  
 
 
 }
@@ -169,7 +171,7 @@ iframe {
   text-align: center;
 }
 
-.contents{
+#contents{
   background-color: cyan;
   text-align: center;
   ul{
@@ -207,6 +209,7 @@ iframe{
   height: 50%;
 }
 .staythere{
+  text-align: center;
   position: fixed;
   width: auto;
   height: auto;
