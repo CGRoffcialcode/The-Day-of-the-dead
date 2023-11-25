@@ -126,6 +126,12 @@ button{
  display: block;
 
 }
+#se:hover{
+  background-color: red;
+  border-left: blue;
+  
+  
+}
 
 * {
   margin: 10;
@@ -215,4 +221,10 @@ iframe{
   height: auto;
   background-color: rgb(4, 0, 255);
   border-left: 10px solid rgb(255, 0, 0);
+  
+}
+.staythere:hover{
+  background-color: red;
+  border-left: blue;
+  color: blue;
 }
