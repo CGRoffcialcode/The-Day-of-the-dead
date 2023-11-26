@@ -25,6 +25,10 @@ iframe{
   display: block;
 
 }
+
+
+
+
 .hackbeacuseineedit{
   visibility: hidden;
 }
@@ -40,6 +44,8 @@ iframe{
     
 
   }
+
+  
 
   .dev{
     display: none;
@@ -227,4 +233,33 @@ iframe{
   background-color: red;
   border-left: blue;
   color: blue;
+}
+.donate{
+  text-align: right;
+  
+  position: fixed;
+  width: auto;
+  height: auto;
+  background-color: rgb(4, 0, 255);
+  border-left: 10px solid rgb(255, 0, 0);
+}
+.donate:hover{
+  text-align: right;
+ 
+
+  background-color: red;
+  border-left: blue;
+  color: blue;
+}
+
+#mybutton {
+  position: fixed;
+ 
+  right: 50px;
+}
+
+.special{
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+
 }
