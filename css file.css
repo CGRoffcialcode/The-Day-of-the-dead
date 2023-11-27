@@ -1,76 +1,4 @@
-@media only screen and (min-width: 600px) {
-    body {
-      background-color: rgb(157, 255, 0);
-    
-  
-}
 
-.hidden{
-  visibility: hidden;
-
-}
-.dev{
-  display: block;
-
-}
-iframe{
-  display: block;
-
-}
-.TeachingResources1{
-  display: block;
-
-}
-.Happygone{
-  display: block;
-
-}
-
-
-
-
-.hackbeacuseineedit{
-  visibility: hidden;
-}
-
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: rgb(157, 255, 0);
-  }
-
-  .hidden{
-    visibility: visible;
-    
-
-  }
-
-  
-
-  .dev{
-    display: none;
-
-  }
-  iframe{
-    display: none;
-  
-  }
-  .TeachingResources1{
-    display: none;
-  
-  }
-  .Happygone{
-    display: none;
-  
-  }
-  .hackbeacuseineedit{
-    visibility: hidden;
-  }
- 
-  
-
-
-}
 h1{
     color: rgb(0, 0, 0);
     font-style: italic;
@@ -159,7 +87,75 @@ iframe {
   text-align: center;
   background-color: rgb(135, 0, 0);
 }
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(157, 255, 0);
+  
 
+}
+
+.hidden{
+visibility: hidden;
+
+}
+.dev{
+display: block;
+
+}
+iframe{
+display: block;
+
+}
+.TeachingResources1{
+display: block;
+
+}
+.Happygone{
+display: block;
+
+}
+
+
+
+
+.hackbeacuseineedit{
+visibility: hidden;
+}
+
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: rgb(157, 255, 0);
+}
+
+.hidden{
+  visibility: visible;
+  
+
+}
+
+
+
+.dev{
+  display: none;
+
+}
+iframe{
+  display: none;
+
+}
+.TeachingResources1{
+  display: none;
+
+}
+.Happygone{
+  display: none;
+
+}
+.hackbeacuseineedit{
+  visibility: hidden;
+}
+}
 
   
 .Franceyep{
