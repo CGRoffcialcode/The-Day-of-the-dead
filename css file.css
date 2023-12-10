@@ -225,6 +225,10 @@ display: block;
 display: block;
 
 }
+    
+#wait{
+    display: none;
+}
 
 
 
@@ -246,6 +250,9 @@ body {
 }
 .poop{
   display: none;
+}
+#wait{
+    display: none;
 }
 
 
