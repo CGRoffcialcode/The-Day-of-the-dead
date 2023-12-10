@@ -117,12 +117,10 @@ iframe {
   background-color: cyan;
   text-align: center;
   ul{
-    background-color: aqua;
-    font-weight: bold;
-    li{
-      background-color: grey;
 
-  }
+    font-weight: bold;
+    
+      
 }
 }
 
