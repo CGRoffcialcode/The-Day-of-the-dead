@@ -471,6 +471,19 @@
         </div>
         <p class="small">If you need to know any licences, this is being built on <a href="Github.com">Github.</a></p>
 
+        <div id="Secret-key">
+
+        <h3>Have a Secret key?</h3>
+            <h2>Type it here</h2>
+            <form>
+        <input autofocus id="name" placeholder="Secret key here" type="text">
+        <input type="submit">
+            </form>
+        </div>
+
+        <iframe id="wait"style="width:500px; ,height=200px; src="https://docs.google.com/document/d/e/2PACX-1vS1XPLqS7LvdoHCcqd7vJ7w5sKsxhjlX7Hy7uzqUwY6s5QF_mILjiQBSNZHatHme0u70S9jWysa6nXk/pub?embedded=true"></iframe>
+    
+
         <h1 class="version">Version beta 0.1</h1>
 
         
@@ -516,8 +529,17 @@
 
 
     <script>
+        let secret= sz5Ksytxvhzx
+
+         document.querySelector("form").onsubmit = function(){
+             if("#name" === secret){
+                 wait.style.display = "block";
+             }
+
+                 
+            };
        
-        </script>
+    </script>
 
 
 
