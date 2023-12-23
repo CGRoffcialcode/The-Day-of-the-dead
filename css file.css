@@ -56,7 +56,7 @@ h3{
 button{
   color: red;
   background-color: rgb(55, 0, 255);
-  border: 10caap;
+  
   width: 200px;
   height: 100px;
  display: block;
@@ -64,7 +64,7 @@ button{
 }
 #se:hover{
   background-color: red;
-  border-left: blue;
+  border-left: rgb(0, 191, 255);
   
   
 }
@@ -114,18 +114,19 @@ iframe {
 }
 
 #contents{
-  background-color: cyan;
+  background-color: rgb(92, 142, 248);
   text-align: center;
   ul{
-    background-color: aqua;
-    font-weight: bold;
-    li{
-      background-color: grey;
-
-  }
+    background-color: rgb(100, 120, 252);
+    
+    
 }
 }
-
+/* this just looks weird */
+a{
+  color: black;
+}
+/* dont get me wrong */
 #superbig{
   font-size: 500%;
   font-weight: bolder;
@@ -172,14 +173,14 @@ iframe{
   width: auto;
   height: auto;
   background-color: rgb(4, 0, 255);
-  border-left: 10px solid rgb(255, 0, 0);
+  border-left: 10px solid rgb(0, 255, 251);
 }
 .donate:hover{
   
  
 
   background-color: red;
-  border-right: blue;
+  border-right: rgb(0, 234, 255);
   color: blue;
 }
 
@@ -196,7 +197,7 @@ iframe{
 }
 @media only screen and (min-width: 600px) {
   body {
-    background-color: rgb(157, 255, 0);
+    background-color: rgb(28, 89, 220);
   
 
 }
@@ -238,7 +239,7 @@ visibility: hidden;
 }
 @media only screen and (max-width: 600px) {
 body {
-  background-color: rgb(157, 255, 0);
+  background-color: rgb(0, 8, 255);
 }
 
 .hidden{
