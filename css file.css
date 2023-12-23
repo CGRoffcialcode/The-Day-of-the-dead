@@ -228,6 +228,8 @@ display: block;
 display: block;
 
 }
+    
+
 
 
 
@@ -249,6 +251,9 @@ body {
 }
 .poop{
   display: none;
+}
+#wait{
+    display: none;
 }
 
 
